@@ -1,0 +1,33 @@
+.box-type{
+    display: grid;
+    width: 100vw;
+}
+
+.individual-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10vh;
+    padding: 20px;
+}
+
+.accordion{
+    display: flex;
+    border: 3px solid gray;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+li{
+    list-style: none;
+}
+.multipleMode{
+    display: flex;
+    margin: 20px;
+}
+
+.togglerNot{
+    padding-left: 20px;
+}
+
+
